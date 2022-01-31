@@ -1,0 +1,21 @@
+  Write a main program that copies a given text file
+into another file using SimpleReader to read the
+input file and SimpleWriter to write the output
+file. The names of the input text file to be copied
+and of the destination file where the copy is to be
+rsaved are provided as command-line arguments. Assume
+that appropriate arguments will be provided and no error
+checking is necessary. The command-line arguments are
+accessible by your main program through the String[]
+print args array parameter to the main method.
+  
+  Copy and modify the previous main program so that it
+handles all possible IOExceptions and main will not
+throw any IOException. Output meaningful error message(s)
+if an IOException occurs.
+  
+  *** Copy and modify the previous main program so that it
+also includes appropriate error checks on the command line
+arguments, e.g., missing arguments, missing input file,
+non-readable input file, etc. (The java.io.File class
+provides helpful methods to check some of the possible errors.)
